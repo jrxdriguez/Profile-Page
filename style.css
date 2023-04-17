@@ -1,0 +1,264 @@
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Rubik:wght@300&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Open Sans', sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+/* U Classes */
+
+.centered {
+    margin: 0 auto;
+}
+.align {
+    align-items: center;
+}
+.flexed {
+    display:flex;
+}
+.bold {
+    font-weight: bold;
+}
+.pspace {
+    margin-bottom: 10px;
+}
+
+/* Core Classes */
+
+.navbar {
+    background-color: black;
+    margin-bottom:30px;
+       
+}
+.profile {
+    color: white;
+    display:flex;
+    padding-left: 15%;
+    padding-right:15%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    justify-content: space-between;
+    
+
+}
+.ul-list {
+    color: white;
+    display:flex;
+    align-items: center;
+    gap:20px;
+    font-size: .8em; 
+}
+.signout {
+    background-color: teal;
+    font-size: 1.1em;
+    padding: 3px 7px 3px 7px;
+}
+
+.containers {
+    display:flex;
+    padding-left:15%;
+    padding-right:15%;
+}
+.container1 {
+    width:60%;
+    padding-right: 25px;   
+}
+.container2 {
+    width:40%;
+}
+
+.box1 {
+    background-color: white;
+    height:250px;
+    width:100%;
+    margin-bottom:25px;
+    border:2px black solid;
+
+}
+.bh {
+    background-color: teal;
+    height:60px;
+}
+.jd img {
+    width:60px;
+    position:absolute;
+    margin-top: 30px;
+    margin-left:15px;
+    border-radius:50%;
+}
+.b1content {
+    margin-top:35px;
+    margin-left:20px;
+   
+}
+.b1content2 {
+    display:flex;
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left: 15px;
+    align-items: center;
+}
+.mm img {
+    width:10px;
+}
+.seattle {
+    font-size: 1em;
+    margin-left:8px;
+}
+.b1content3 {
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left: 15px;
+    font-size: .8em;
+}
+.developer {
+    font-size: .5em;
+}
+.gw img{
+    width:15px;
+}
+.editprofile {
+    gap:8px;
+    color:blue ;
+}
+
+.box3 {
+    background-color: white;
+    height:110px;
+    width:100%;
+    border:2px black solid;
+}
+.bh3 {
+    background-color: rgb(50, 58, 58);
+    height:;
+    color:white;
+    font-size: .8em;
+    padding-top:7px;
+    padding-bottom: 7px;
+    padding-left:15px;
+}
+.b3content {
+    margin-top:4px;
+    margin-bottom:4px;
+    margin-left: 15px;
+    font-size: .9em;
+}
+.b3content2 {
+    color:gray;
+    margin-bottom:4px;
+    margin-left: 15px;
+    font-size: .8em;
+}
+.b3content3 {
+    margin-left: 15px;
+    font-size: .7em;
+}
+
+.box2 {
+    height:125px;
+    width:;
+    margin-bottom: 25px;
+    border:2px black solid;
+}
+.bh2 {
+    background-color: rgb(50, 58, 58);
+    height:30px;
+    padding:5px;
+    
+}
+.number2 {
+    color: rgb(50, 58, 58);
+    font-size: .7em;
+    
+}
+.circle {
+    width: 25px;
+    height:25px;
+    line-height:25px;
+    border-radius:50%;
+    font-size:1.5em;
+    color:white;
+    text-align:center;
+    background-color: lightgray;
+}
+.cr {
+    color:white;
+    font-size: .8em;
+    padding:5px;
+}
+.b2content {
+    margin-top:10px;
+    margin-left:5px;
+}
+.names {
+    margin-bottom:10px;
+}
+.ts img {
+    width:25px;
+    border-radius: 50%;
+    margin-right:5px;
+}
+.b2names {
+    font-size:1em;
+    margin-left:5px;
+}
+.checks {
+    width:10px;
+    border-radius:50%;
+    margin-left: 25px;   
+}
+.checks2{
+    width:10px;
+    border-radius:50%;
+    margin-left:35px;
+}
+.ps img {
+    width:25px;
+    border-radius: 50%;
+    margin-right:5px;
+}
+
+.box4 {
+    height:185px;
+    border:2px black solid;
+}
+.bh4 {
+    background-color: rgb(50, 58, 58);
+    padding:7px;
+}
+.number500 {
+    color: rgb(50, 58, 58);
+    font-size: .6em;
+}
+.oval {
+    width: 45px;
+    height:20px;
+    line-height:20px;
+    border-radius:50%;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-size:1.5em;
+    color:white;
+    text-align:center;
+    background-color: lightgray;
+}
+.yc {
+    color:white;
+    font-size: .8em;
+    padding:5px;
+}
+.box5 {
+    padding:8px;
+    border-left:2px black solid;
+    border-bottom:2px black solid;
+    border-right:2px black solid;
+}
+.vm {
+    color: blue;
+    font-size: .9em;
+}
